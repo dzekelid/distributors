@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Distributors",
+	"description": "This is a repository of distributors APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/distributors.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://distributors.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3dcart",
+			"x-api-slug": "3dcart",
+			"description": "The 3dcart shopping cart software is a complete web store solution for anyone looking to start an online business, add a shopping cart to their existing website, or to replace their existing shopping cart platform. 3dcart includes the latest, most innovative features, tools, support and technology needed to build, promote and grow your online business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg",
+			"humanURL": "http://www.3dcart.com",
+			"baseURL": "https://apirest.3dcart.com//",
+			"tags": "Distributors",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/distributors/master/_listings/3dcart/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Distributors",
+	"include": [
+		{
+			"name": "3dcart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/distributors/master/_listings/3dcart/apis.yaml"
+		}
+	]
+}
